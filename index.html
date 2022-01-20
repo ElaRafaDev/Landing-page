@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <script src="./assets/js/scroll.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/variables.css">
+  <link rel="stylesheet" href="./assets/css/elements.css">
+  <link rel="stylesheet" href="./assets/css/classes.css">
+  <link rel="stylesheet" href="./assets/css/menu.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+  <label class="close-menu-label" for="close-menu" title="close menu"></label>
+  <aside class="menu white-bg">
+    <div class="main-content menu-content">
+      <h1 onclick="getElementById('close-menu').checked = false;">
+        <a href="#">WEB</a>
+      </h1>
+      <nav>
+        <ul onclick="getElementById('close-menu').checked = false;">
+          <li class="menu-web"><a href="#web-developer">Web developer</a></li>
+          <li class="menu-code"><a href="#code-review">Code Review</a></li>
+          <li class="menu-grid"><a href="#grid-one">Os 3 Dev</a></li>
+          <li class="menu-tab"><a href="#table">Tabela</a></li>
+          <li class="menu-gal"><a href="#gallery">Galeria</a></li>
+          <li class="menu-cont"><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+
+  <div class="menu-spacing"></div>
+
+  <section id="web-developer" class="web-developer main-bg section">
+    <div class="main-content web-developer-content">
+      <div class="web-developer-text-content">
+        <h2>
+          Importância do Desenvolvedor Web
+        </h2>
+        <p>
+          Um dos principais objetivos de um web developer é garantir que a experiência do usuário seja agradável em
+          diferentes dispositivos.
+        </p>
+      </div>
+      <div class="web-developer-img">
+        <img src="/assets/img/javascript.svg"
+          alt="Desenho de um homem na esquerda segurando a logo do CSS 3, desenho de uma mulher no centro empurrando a logo do JavaScript e um desenho de um homem na direita segurando a logo do HTML 5.">
+      </div>
+    </div>
+  </section>
+
+  <section id="code-review" class="white-bg section">
+    <div class="main-content code-review-content">
+      <h2 class="font-code-review">Importância do code review para uma equipe</h2>
+      <p>
+        Quando um cliente solicita a construção de um software, ele deseja receber um produto que atenda às suas
+        necessidades. Por meio do code review, as falhas e bugs do sistema são corrigidos a tempo. Dessa forma, a
+        aplicação chegará na etapa de produção e ao usuário final sem nenhuma inconsistência.
+      </p>
+      <p>
+        Contudo, quem mais se beneficia disso é a equipe de desenvolvimento, afinal, todos os envolvidos têm as suas
+        habilidades técnicas aprimoradas. Além disso, a prática de revisar código gera um maior nível de cooperação
+        entre
+        esses colaboradores.
+      </p>
+    </div>
+  </section>
+
+  <section id="grid-one" class="grid-one main-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">Os 3 tipos de desenvolvedores</h2>
+      <p class="grid-description">As três áreas de destaque para o desenvolvimento web</p>
+      <div class="grid">
+        <article>
+          <h3>Dev front-end e Dev back-end</h3>
+          <p>
+            Para quem deseja empreender, é possível atuar como Dev front-end e Dev back-end.
+          </p>
+          <p>
+            O Dev front-end fica responsável pela criação da parte gráfica de um site e de um produto digital e faz a
+            conversão dos dados em uma interface agradável, usando linguagens como JavaScript, CSS e HTML.
+          </p>
+          <p>
+            Já o Dev back-end é responsável pelas funcionalidades do site e pela interação do produto digital com o
+            usuário, como: criação de contas, login, senha, entre outras ações executadas pelos clientes.
+            Entre algumas das linguagens necessárias para o desempenho das funções estão: PHP, Ruby, Phyton e Java.
+          </p>
+        </article>
+
+        <article>
+          <h3>Desenvolvimento de aplicativo</h3>
+          <p>
+            Você já se perguntou como são feitos os aplicativos ou quem são os profissionais envolvidos nesses projetos?
+          </p>
+          <p>
+            O desenvolvimento web para mobile é o segmento responsável pelo planejamento, elaboração, testes e
+            implementação de softwares para os dispositivos móveis.
+          </p>
+          <p>
+            Para empreender nesse ramo, é preciso estar preparado para programar para Android e iOS.
+          </p>
+          <p>
+            Para isso, é preciso dominar linguagens de programação como Objective-C., Swift e Java.
+          </p>
+        </article>
+
+        <article>
+          <h3>Desenvolvedor Full-Stack</h3>
+          <p>
+            Enfim, chegamos ao full-stack (ou generalista). Tal profissional está apto para atuar tanto com aplicativos
+            quanto sites, com front-end e back-end.
+          </p>
+          <p>
+            Para isso, é preciso conhecer o processo de desenvolver o software, bem como sistema de hospedagem, rede,
+            banco de dados, servidor, segurança de dados, UX, entre outros conceitos.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="table" class="white-bg section">
+    <div class="main-content code-review-content">
+      <h2 class="font-tabela">Tabela de conhecimentos</h2>
+      <div class="responsive-table">
+        <table>
+          <caption>Conhecimentos necessários para cada área</caption>
+          <thead>
+            <tr>
+              <th>Front-end</th>
+              <th>Back-end</th>
+              <th>Full-stack</th>
+              <th>Mobile</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>JavaScript</td>
+              <td>PHP</td>
+              <td>Front-end</td>
+              <td>Objective-C</td>
+            </tr>
+            <tr>
+              <td>HTML</td>
+              <td>Ruby</td>
+              <td>Back-end</td>
+              <td>Swift</td>
+            </tr>
+            <tr>
+              <td>CSS</td>
+              <td>Python</td>
+              <td>Mobile</td>
+              <td>Java</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Java</td>
+              <td>Banco de dados</td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="grid-one white-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">Galeria</h2>
+      <p class="grid-description">Galeria de fotos gerada aleatóriamente</p>
+      <div class="grid">
+        <div class="gallery-img">
+          <img src="https://source.unsplash.com/random/360x360?r=1" alt="Imagem gerada aleatóriamente pela Unsplash">
+        </div>
+        <div class="gallery-img">
+          <img src="https://source.unsplash.com/random/360x360?r=2" alt="Imagem gerada aleatóriamente pela Unsplash">
+        </div>
+        <div class="gallery-img">
+          <img src="https://source.unsplash.com/random/360x360?r=3" alt="Imagem gerada aleatóriamente pela Unsplash">
+        </div>
+        <div class="gallery-img">
+          <img src="https://source.unsplash.com/random/360x360?r=4" alt="Imagem gerada aleatóriamente pela Unsplash">
+        </div>
+        <div class="gallery-img">
+          <img src="https://source.unsplash.com/random/360x360?r=5" alt="Imagem gerada aleatóriamente pela Unsplash">
+        </div>
+        <div class="gallery-img">
+          <img src="https://source.unsplash.com/random/360x360?r=6" alt="Imagem gerada aleatóriamente pela Unsplash">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact main-bg section">
+    <div class="main-content contact-content">
+      <div class="contact-text-content">
+        <h2 class="font-contact">Contato e informações</h2>
+        Fontes do conteúdo da página:<br>
+        <ul class="font-link">
+          <li><a target="_blank" href="https://www.dialhost.com.br/blog/desenvolvedor-web/">Web developer</a></li>
+          <li><a target="_blank" href="https://www.knowsolution.com.br/code-review-importancia-fazer-revisao/">Code
+              review</a></li>
+          <li><a target="_blank"
+              href="https://blog.locaweb.com.br/temas/codigo-aberto/conheca-3-areas-de-destaque-para-o-desenvolvimento-web/">Os
+              3 Devs</a></li>
+        </ul>
+      </div>
+      <div class="contact-img">
+        <img src="/assets/img/contact_us.svg"
+          alt="Uma logo de enviar na esquerda, uma mulher no centro da imagem sentada utilizando um celular e encostada numa logo de mensagens, na esquerda tem uma logo de ligações e pouco a frente uma mulher de pé utilizando um celular.">
+      </div>
+      <div class="contact-form">
+        <fieldset class="form-grid">
+          <legend>Contact me</legend>
+          <div class="form-group">
+            <label for="first-name">Primeiro nome</label>
+            <input type="text" name="first-name" id="first-name" placeholder="Primeiro nome">
+          </div>
+          <div class="form-group">
+            <label for="last-name">Sobrenome</label>
+            <input type="text" name="last-name" id="last-name" placeholder="Sobrenome">
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="E-mail">
+          </div>
+          <div class="form-group full-width">
+            <label for="message">Mensagens</label>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
+          </div>
+          <div class="form-group full-width">
+            <button type="submit">Enviar mensagem</button>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer" class="footer white-bg">
+    <p><a rel="nofollow" target="_blank" href="#">Feito com <span class="heart">♥</span></a></p>
+  </footer>
+
+  <div data-anima="scroll"><a href="#">
+      <div class="topo">➤</div>
+    </a></div>
+
+</body>
+
+</html>
